@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+https://www.youtube.com/watch?v=jLpPc_J2_xo
+
+min 10
+Switch cambiado por routes
+```
+import { Route, Routes } from 'react-router-dom'
+<Routes>
+    <Route path='/' element={<Tasklist />} exact />
+    <Route path='/add' element={<Taskform />} />
+</Routes>
+```
+
+21:00 importar iconos
+1:15:26 uuid
+1:18 cambiar el history por el navigate
+    import {useNavigate} from 'react-router-dom'
+    const navigate = useNavigate()
+    navigate("/")
+
+
+1.23...
